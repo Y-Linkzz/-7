@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/buycart.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="../js/buycart.js"></script>
+    <title>购物车</title>
+</head>
+<body>
+    <div id="buycart">
+        <div class="wrapper">
+            <div class="b_head">
+                <a href="" class="logo"> <img src="../img/vancl-logo.png" alt=""></a>
+                <div class="help"><a href="">帮助中心</a></div>
+                <div class="account">
+                    <span class="username">您好，欢迎光临凡客诚品。</span>
+                    <a href="javascript:;" class="login">登录</a>
+                    |
+                    <a href="javascript:;" class="reg">注册</a>
+                </div>
+            </div>
+            <div class="location">
+                <span>1.我的购物车</span>
+                <span>2.填写核对信息单</span>
+                <span>3.成功提交订单</span>
+            </div>
+            <div class="content">
+                <div class="cart_top">
+                    <h2>我的购物车</h2>
+                </div>
+                <div class="tip">
+                    <span>温馨提示：</span>
+                     1.选购清单中的商品无法保留库存，请您及时结算。2.商品的价格和库存将以订单提交时为准。3.促销活动满减优惠将均摊至商品小计中。
+                </div>
+                <div class="cart_good">
+                    <div class="good_top">
+                        <ul>
+                            <li class="white"></li>
+                            <li class="allsel">
+                                <input type="checkbox" id="allchose">
+                                <label for="allchose">全选</label>
+                            </li>
+                            <li class="image"></li>
+                            <li class="goodname">商品名称</li>
+                            <li style="width: 80px;">尺寸</li>
+                            <li style="width: 80px;">单价</li>
+                            <li style="width: 100px;">数量</li>
+                            <li style="width: 42px;">优惠</li>
+                            <li style="width: 87px;">小计</li>
+                            <li style="width: 78px;">操作</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="good_main">
+                        <div class="goods">
+                            <div class="select">
+                                <input type="checkbox" class="chex" >
+                            </div>
+                            <div class="gdimg">
+                                <img src="../img/SMTU11111111111.jpg" alt="">
+                            </div>
+                            <div class="gdname">
+                                 T恤 本广 我这一生 白色
+                            </div>
+                            <div class="gdsize">
+                                XS
+                            </div>
+                            <div class="gdprice">
+                                 ￥<span>98.00</span>
+                            </div>
+                            <div class="qty">
+                                <a href="javascript:;" class="track decrease"></a>
+                                <input type="text" class="number" value="1">
+                                <a href="javascript:;" class="add"></a>
+                            </div>
+                            <div class="yh">
+                                -
+                            </div>
+                            <div class="xiaoji">￥<span>98.00</span></div>
+                            <div class="del">
+                                <a href="javascript:;">删除</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="good_summary">
+                        <div class="gsum_top">
+                            <input type="checkbox" name="" class="chex" id="allchose2">
+                            <label for="allchose2">全选</label>
+                            <a href="javascript:;" class="delchosed">删除</a>
+                            <span>数量总计：<em class="allnum">0</em> 件</span>
+                        </div>
+                        <div class="gsum_bottom">
+                            <div class="summary">
+                                 产品金额总计(不含运费)：
+                                 <span class="allprice">￥0.00</span>
+                            </div>
+                            <div class="b_right">
+                                <a href="javascript:;" class="goback"> <<继续购物 </a>
+                                <a href="javascript:;" class="pay"> 去结算>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart_empty">
+                 您的购物车中没有商品，请您先
+                <a href="javascript:;" class="goshop">选购商品»</a>
+            </div>
+            <div class="cart_footer">
+                <p class="copyrights">
+                     Copyright 2007 - 2019 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号
+                </p>
+                <div class="fbottom">
+                    <a href="" class="box1">
+                        <img src="../img/FOOT.gif" alt="">
+                    </a>
+                    <a href="" class="box1">
+                        <img src="../img/FOOT2.gif" alt="../img/FOOT2.gif">
+                    </a>
+                    <a href="" class="box2">
+                        <img src="../img/FOOT3.gif" alt="../img/FOOT2.gif">
+                    </a>
+                </div>
+            </div>
+            <div class="popup">
+                <h3>
+                    <span>提示</span>
+                    <a href="javascript:;" class="popclose">
+                        关闭
+                        <img src="../img/close7777777777777.gif" alt="">
+                    </a>
+                </h3>
+                <p class="poptext">
+                    此操作需要登录，您现在要登录吗？
+                </p>
+                <div class="popbtn">
+                    <a href="javascript:;" class="popsure"></a>
+                    <a href="javascript:;" class="popcancel">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

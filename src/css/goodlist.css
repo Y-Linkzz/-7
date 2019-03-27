@@ -1,0 +1,679 @@
+#v_goodlist{
+    height: 100%;
+}
+.g_main{
+    overflow: hidden;
+}
+.classify{
+    line-height: 40px;
+    overflow: hidden;
+}
+.classify .c_left{
+    color: #333;
+    height: 40px;
+    float: left;
+}
+.classify .c_left span{
+    color: #b4b4b4;
+}
+.classify .c_left a{
+        color: #333;
+}
+.classify .c_left a:hover{
+    color: #b81c22;
+}
+.classify .c_right{
+    float: right;
+    height: 40px;
+    color: #b4b4b4;
+}
+.classify .c_right span{
+    color: #a00000;
+}
+.g_type{
+    border: 1px solid #C7CACD;
+    clear: both;
+    padding: 0px 1px 0px 0px;
+    margin-bottom: 15px;
+}
+.g_type .gt_top{
+    line-height: 34px;
+    height: 34px;
+}
+.g_type .gt_top .gtt_left{
+    float: left;
+    width: 66px;
+    height: 34px;
+    text-align: center;
+}
+.g_type .gt_top .gtt_right{
+    width: 1130px;
+    float: left;
+    padding: 5px 0 5px;
+    border-left: 1px solid #ccc;
+    height: 34px;
+    box-sizing: border-box;
+}
+.g_type .gt_top .gtt_right ul li{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 25px;
+    white-space: nowrap;
+}
+.g_type .gt_top .gtt_right ul li a{
+    display: block;
+    min-width: 11px;
+    color: #333;
+}
+.g_type .gt_top .gtt_right ul li a span{
+    color: #999;
+    margin-left: -5px;
+}
+.g_type .line{
+    height: 1px;
+    background: url(../img/GOODLST.png) repeat 0 -2279px;
+}
+.gt_bottom{
+    height: 27px;
+    background: #ededed;
+}
+.gt_bottom .gt_color{
+    width: 370px;
+    float: left;
+    margin-left: 10px;
+}
+.gt_bottom .gt_color span{
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 3px;
+}
+.gt_bottom .gt_color .colorlist{
+    float: left;
+}
+.gt_bottom .gt_color .colorlist ul{
+    float: left;
+    
+}
+.gt_bottom .gt_color .colorlist ul li{
+    float: left;
+    margin: 0 0 8px 3px;
+    border: 1px solid #aeb1b4;
+    height: 17px;
+    width: 17px;
+    background: url(../img/TU.png);
+    cursor: pointer;
+}
+.gt_bottom .gt_color .colorlist ul li:hover{
+    border: 1px solid #a00000; 
+}
+.gt_bottom .gt_color .colorlist .active{
+    border: 1px solid #a00000; 
+}
+.gt_bottom .gt_color .colorlist .allcolor.active{
+    border: 1px solid #a00000;
+}
+.gt_bottom .gt_color .colorlist .allcolor{
+    float: left;
+    margin: 0 0 8px 3px;
+    display: block;
+    height: 17px;
+    width: 31px;
+    color: #333;
+    background: url(../img/TU.png) no-repeat 0px -259px;
+    border: 1px solid #aeb1b4;
+}
+.gt_bottom .gt_color .colorlist .allcolor:hover{
+    border: 1px solid #a00000;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(2){
+    background-position: 0px -276px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(3){
+    background-position: 0px -293px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(4){
+    background-position: 0px -208px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(5){
+    background-position: 0px -225px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(6){
+    background-position: 0px -242px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(7){
+    background-position: 0px -361px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(8){
+    background-position: 0px -378px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(9){
+    background-position: 0px -344px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(10){
+    background-position: 0px -327px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(11){
+    background-position: 0px -310px;
+}
+.gt_bottom .gt_color .colorlist ul li:nth-child(12){
+    background-position: 0px -191px;
+}
+.chosegood{
+    width: 1200px;
+    z-index: 100;
+    background: #fff;
+}
+.chosegood.fixed{
+    position: fixed;
+    top: 0;
+}
+.ch_top{
+    border-bottom: 2px solid #b81c22;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.ch_top .allgood{
+    float: left;
+    display:block;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    background: #b81c22;
+    text-align: center;
+    padding: 0 20px 0;
+}
+.ch_top .cht_right{
+    width: 121px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.ch_top .cht_right span{
+    float: left;
+    margin-left: 12px;
+    line-height: 40px;
+}
+.ch_top .cht_right .ch_prev{
+    margin-top: 11px;
+    margin-left: 12px;
+    display: block;
+    float: left;
+    height: 17px;
+    width: 19px;
+    background: url(../img/LOGO111.png) no-repeat 0 -72px;
+}
+.ch_top .cht_right .ch_next{
+    margin-top: 11px;
+    float: left;
+    display: block;
+    margin-left: 12px;
+    background: url(../img/LOGO111.png) no-repeat 0 -89px;
+    height: 17px;
+    width: 48px;
+}
+.ch_bottom{
+    height: 34px;
+    position: relative;
+    
+    border-bottom: 1px solid #ccc;
+}
+.ch_bottom .sort{
+    float: left;
+}
+.ch_bottom .sort ul li{
+    position: relative;
+    float: left;
+    border: 1px solid #f5f5f5;
+    border-left-color: #ddd;
+    border-bottom: none;
+    border-top: none;
+    line-height: 34px;
+    padding: 0px 12px 0px 20px;
+}
+.ch_bottom .sort ul li:nth-child(5){
+    width: 73px;
+    padding: 0;
+    padding-left: 15px;
+    background: #eee;
+    height: 34.28px;
+}
+.ch_bottom .sort ul li:nth-child(5):hover .pricetype{
+    display: block;
+}
+.ch_bottom .sort ul li:nth-child(5) .more{
+    display: inline-block;
+    vertical-align: top;
+    width: 11px;
+    height: 10px;
+    position: relative;
+    top: 13px;
+    background: url(../img/LOGO22.png) no-repeat 0 -3131px;
+    z-index: 10;
+    
+}
+.ch_bottom .sort ul li a{
+    display: inline-block;
+}
+.ch_bottom .sort ul li a:hover i{
+    color: #b81c22;
+}
+.ch_bottom .sort ul li a i{
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    color: #656565;
+}
+.ch_bottom .sort ul li a span{
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    line-height: 11px;
+    vertical-align: middle;
+    background: url(../img/LOGO22.png) no-repeat;
+}
+.ch_bottom .sort ul li a .uptolow{
+    background-position-x: 0px;
+    background-position-y: -3090px;
+}
+.ch_bottom .sort ul li a .uptolowred{
+    background-position-x: -21px;
+    background-position-y:-3090px;
+}
+.ch_bottom .sort ul li a .lowtoup{
+    background-position-x: 0px;
+    background-position-y:-3112px;
+}
+.ch_bottom .sort ul li a .lowtoupred{
+    background-position-x: -21px;
+    background-position-y:-3112px;
+}
+.ch_bottom .sort ul li .pricetype{
+    display: none;
+    position: absolute;
+    width: 88px;
+    border: 1px solid #ddd;
+    border-top: 0px;
+    left: -1px;
+    top:0px;
+    background: #eee;
+    z-index: 5;
+}
+.ch_bottom .sort ul li .pricetype p{
+    height: 34px;
+    text-align: left;
+}
+.ch_bottom .sort ul li .pricetype p:hover{
+    background: white;
+}
+.ch_bottom .sort ul li .pricetype p a{
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+    width: 71px;
+}
+.pricearea{
+    float: left;
+    height: 34px;
+    border-right: 1px solid #ddd;
+    width: 133px;
+}
+.pricearea .searchprice{
+    float: left;
+    width: 109px;
+    position: relative;
+    height: 29px;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+.priceinput{
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    z-index: 10;
+}
+.priceinput input{
+    border: 1px solid #aeb1b4;
+    height: 17px;
+    line-height: 17px;
+    width: 35px;
+    padding-left: 3px;
+    float: left;
+    margin: 6px 0px 0px 6px;
+    display: inline;
+    color: #999;
+}
+.priceinput input:nth-child(3){
+    margin-left: 0px;
+}
+.priceinput span{
+    margin: 6px 3px 0px;
+    float: left;
+    display: inline;
+    line-height: 19px;
+    color: #999;
+    font-size: 19px;
+}
+.seachfocus{
+    display: none;
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    z-index: 9;
+    border: 1px solid #b4b4b4;
+    background: #fff;
+    left: -2px;
+}
+.seachfocus p{
+    position: absolute;
+    height: 21px;
+    top: 27px;
+}
+.seachfocus p .clear{
+    line-height: 19px;
+    padding-left: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+}
+.seachfocus p .clear:hover{
+    color: #b81c22;
+}
+.seachfocus p .sure{
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/LOGO333.png) no-repeat 0 -58px;
+    width: 45px;
+    height: 19px;
+    margin-left: 10px;
+}
+.hbtkbox{
+    float: right;
+    background: #eee;
+    height: 34px;
+    border-left: 1px solid #ccc;
+    line-height: 34px;
+    width: 88px;
+    text-align: center;
+
+}
+.goods{
+    width: 100%;
+    margin-top: 15px;
+    float: left;
+    height: 646px;
+}
+.goods ul{
+    float: left;
+}
+.goods ul li{
+    float: left;
+    margin: 0px 9px 20px 0px;
+    width: 231px;
+}
+.goods ul li .goodimg{
+    position: relative;
+    width: 230px;
+    height: 230px;
+}
+.goods ul li .goodimg .gimg{
+
+    display: block;
+}
+.goods ul li .goodimg .gimg img{
+    display: block;
+    border: 1px solid #dbd7d6;
+    width: 228px;
+    height: 228px;
+}
+.goods ul li .goodimg .gimg img:hover{
+    border: 1px solid #b81c22;
+}
+.goods ul li .goodimg .tehui{
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: "arial";
+    font-size: 16px;
+    height: 25px;
+    padding: 18px 0 2px 6px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 40px;
+    text-indent: -5px;
+    background: url(../img/sprites_20130606.png) no-repeat 0 -841px;
+}
+.goods ul li .goodimg .new{
+    background: url(../img/sprites_20130606.png) no-repeat 0 -631px;
+    color: #FFFFFF;
+    font-family: "arial";
+    font-size: 16px;
+    height: 23px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 40px;
+    z-index: 2;
+}
+.goods ul li .gdtip{
+    margin-top: 10px;
+    padding: 0px 3px 5px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Microsoft YaHei";
+    height: 38px;
+    overflow: hidden;
+}
+.goods ul li .gdtip a{
+    margin-top: 10px;
+    padding: 0px 3px 5px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Microsoft YaHei";
+    color:#727171;
+}
+.goods ul li .gdprice{
+    text-align: center;
+    color: #b81c22;
+    font-weight: bold;
+}
+.goods ul li .gdprice span{
+    padding: 0px 3px 5px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Microsoft YaHei";
+}
+.searchpage{
+    clear: both;
+    float: right;
+}
+.searchpage .pa_btn{
+    cursor: pointer;
+    float: right;
+    width: 49px;
+    height: 26px;
+    border: 0;
+    margin-left: 10px;
+    background: url(../img/sprites_20130606.png) no-repeat 0px -2044px;
+}
+.searchpage strong{
+    float: right;
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: normal;
+}
+.searchpage .pa_num{
+    float: right;
+    width: 26px;
+    height: 24px;
+    border: 1px solid #ededed;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px 4px;
+}
+.searchpage .total{
+    float: right;
+    display: inline-block;
+    margin: 6px 10px 0px;
+    font-style: normal;
+    font-weight: normal;
+}
+.searchpage .next{
+    user-select: none;
+    float: right;
+    cursor: pointer;
+    width: 43px;
+    height: 24px;
+    padding-right: 14px;
+    line-height: 24px;
+    text-align: right;
+    border: 1px solid #efefef;
+    background: url(../img/sprites_20130606.png) no-repeat 46px -1954px;
+}
+.searchpage .next:hover{
+    color: #b81c22;
+    background-position: 46px -1976px;
+}
+.searchpage ul{
+    float: right;
+    margin-right: 7px;
+}
+.searchpage ul li{
+    cursor: pointer;
+    float: left;
+    margin-left: 7px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background: #fff;
+    width: 26px;
+    line-height: 24px;
+    height: 24px;
+    border: 1px solid #ededed;
+    user-select: none;
+}
+.searchpage ul .seactive{
+    color: #FFFFFF;
+    background: #b81c22;
+}
+.searchpage .prev{
+    user-select: none;
+    cursor: pointer;
+    float: right;
+    width: 43px;
+    height: 24px;
+    padding-left: 14px;
+    line-height: 24px;
+    text-align: left;
+    border: 1px solid #efefef;
+    background: url(../img/sprites_20130606.png) no-repeat 3px -1996px;
+}
+.searchpage .prev:hover{
+    color: #b81c22;
+    background-position: 3px -2018px;
+}
+.ico{
+    display: none;
+    position: absolute;
+    z-index: 1002;
+    background: url(../img/8888888888888.png) no-repeat;
+    left: 306px;
+    top: 398px;
+    height: 25px;
+    width: 12px;
+    background-position: 0 -931px;
+}
+.prview{
+    display: none;
+    position: absolute;
+    z-index: 1001;
+    width: 290px;
+    top: 331px;
+    left: 317px;
+    height: 427px;
+    background: #e6eaf3;
+    font-size: 12px;
+    color: #999999;
+    border: 1px solid #777777;
+}
+.prview .primg{
+    padding: 9px 0 0 0 ;
+    height: 287px;
+    text-align: center;
+    position: relative;
+    width: 270px;
+    margin: 0 auto;
+}
+.prview .primg img{
+    width: 270px;
+    height: 270px;
+}
+.prview .prtext{
+    color: #333;
+    margin: 0 0 0 13px;
+    text-align: left;
+    line-height: 24px;
+    width: 275px;
+}
+.prview .prtext span{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    width: 270px;
+    height: 24px;
+}
+
+.prview .prtext em{
+    font-style: normal;
+    font-weight: normal;
+    color: #999;
+    white-space: nowrap;
+    display: block;
+}
+.prprice{
+    width: 135px;
+    margin: 17px 0px 0px 23px;
+    float: left;
+    border-right: 1px dotted #ccc;
+    line-height: 23px;
+    color: #b81c22;
+    font-style: normal;
+}
+.prcon{
+    float: left;
+    color: #b81c22;
+    margin: 16px 0 0 32px;
+    line-height: 20px;
+    display: inline;
+}
+.prcon span{
+    color: #92959a;
+    display: block;
+    padding: 13px 0px 0px 0px;
+}
+.nogoods{
+    display: none;
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #dbd7d6;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 0;
+    color: #999;
+}
+.nogoods p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.nogoods p span{
+    color: #b81c22;
+}

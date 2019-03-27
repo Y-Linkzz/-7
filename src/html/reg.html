@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="../js/reg.js"></script>
+    <script>
+        $(function(){
+            
+        })
+    </script>
+    <title>凡客注册</title>
+</head>
+<body>
+    <div id="v_reg">
+        <div class="container">
+            <div class="vr_head">
+                <h1 class="logo">凡客VANCL</h1>
+            </div>
+            <div class="vr_main">
+                <div class="m_left">
+                    <img src="../img/REG.jpg" alt="">
+                </div>
+                <div class="m_right">
+                    <div class="reg_head">
+                        注册新用户
+                        <span>
+                             我已经注册，现在就
+                             <a href="javascript:;" class="denglv">登录</a>
+                        </span>
+                    </div>
+                    <div class="reg_main">
+                        <div class="box">
+                            <input type="text" placeholder="验证码" class="code"> 
+                            <canvas id="canvas" width="138" height="43"></canvas>
+                            <span class="tips"></span>
+                        </div>
+                        <div class="box">
+                            <input type="text" placeholder="请输入手机号码" class="phone">
+                            <a href="javascript:;" class="getcode">获取短信验证码</a>
+                            <span class="tips"></span>
+                        </div>
+                        <div class="box">
+                            <input type="text" class="text2" placeholder="填写手机验证码" id="phonecode"> 
+                            <span class="tips"></span>
+                        </div>
+                        <div class="box">
+                            <input type="password" class="text2" placeholder="设定登录密码" id="psw">
+                            <span class="tips"></span>
+                            <div class="pswsafety">
+                                <span>安全强度：</span>
+                                <div class="pswimg"></div>
+                                <span class="safe"></span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <input type="password" class="text2" placeholder="再次输入密码" id="pswagain">
+                            <span class="tips"></span>
+                        </div>
+                        <div class="box">
+                            <div class="chk_agreen">
+                                <input type="checkbox" name="" id="check">请阅读
+                                <a href="" class="rule">《VANCL凡客诚品服务条款》</a>
+                            </div>
+                            <a href="javascript:;" class="reg_btn">立即注册</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vr_footer">
+                <p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+                <div class="subfooter">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="popup">
+            <h3>
+                <span>提示</span>
+                <a href="javascript:;" class="popclose">
+                    关闭
+                    <img src="../img/close7777777777777.gif" alt="">
+                </a>
+            </h3>
+            <p class="poptext">
+                注册成功，<span class="second"></span>秒后自动跳到首页
+            </p>
+            <div class="popbtn">
+                <!-- <a href="javascript:;" class="popsure"></a>
+                <a href="javascript:;" class="popcancel">取消</a> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

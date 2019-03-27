@@ -1,0 +1,173 @@
+body{
+    font: 100 12px " SimSun";
+}
+#v_reg{
+    height: 100%;
+}
+.vr_head{
+    margin: 10px 0 0 0;
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px #919191;
+    .logo{
+        width: 187px;
+        height: 48px;
+        text-indent: -9999px;
+        background: url(../img/logo18546.png) no-repeat ;
+    }
+}
+.vr_main{
+    height: 592px;
+    margin-top: 45px;
+    overflow: hidden;
+    .m_left{
+            width: 465px;
+            height: 500px;
+            float: left;
+            margin: 47px 0 0 130px;
+    }
+    .m_right{
+        width: 515px;
+        float: right;
+        .reg_head{
+            height: 35px;
+            width: 415px;
+            float: right;
+            line-height: 35px;
+            margin: 0 100px 0 0;
+            border-bottom: 2px solid #b81e20;
+            font-size: 20px;
+            color: #a2a2a2;
+            font-weight: bolder;
+            span{
+                font-size: 14px;
+                float: right;
+                a{
+                    color: #b52024;
+                    margin: 0 0 0 3px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .reg_main{
+            width: 415px;
+            float: right;
+            margin: 20px 95px 0 0;
+            .box{
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+                margin-top: 15px;
+                .code,.phone{
+                    float: left;
+                    width: 260px;
+                    border: 1px solid #cbcbcb;
+                    height: 43px;
+                    line-height: 43px;
+                    font-size: 14px;
+                    text-indent: 10px;
+                }
+                #canvas{
+                    float: right;
+                    border: 1px solid #ccc;
+                    cursor: pointer;
+                }
+                .getcode{
+                    float: right;
+                    display: block;
+                    width:138px; 
+                    height:43px;
+                    border: 1px solid #ccc;
+                    background: #f5f5f5;
+                    text-align: center;
+                    line-height: 43px;
+                    color: #b52024;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .tips{
+                    display: block;
+                    float: left;
+                    line-height: 16px;
+                    color: #999;
+                    height: 16px;
+                    
+                    z-index: 20;
+                }
+                .text2{
+                    float: left;
+                    width: 412px;
+                    height: 43px;
+                    line-height: 43px;
+                    color: #656565;
+                    font-size: 14px;
+                    text-indent: 10px;
+                    border: 1px solid #cbcbcb;
+                }
+                .chk_agreen{
+                    padding-top: 10px;
+                    color: #9d9d9d;
+                    font-size: 14px;
+                    font-weight: bolder;
+                    line-height: 12px; 
+                    #check{
+                        vertical-align: middle
+                    }
+                    .rule{
+                        font-size: 12px;
+                        color: #b52024;
+                        font-weight: bolder;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .reg_btn{
+                    margin-top: 20px;
+                    display: block;
+                    width: 410px;
+                    background: #9A9A9A;
+                    color: #FFFFFF;
+                    height: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: bolder;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .pswsafety{
+                    display: none;
+                    float: left;
+                    line-height: 22px;
+                    color: #666;
+                    span{
+                        float: left;
+                    }
+                    .pswimg{
+                        
+                        width: 140px;
+                        float: left;
+                        height: 12px;
+                        margin-top: 5px;
+                        margin-right: 5px;
+                        background: url(../img/PSW7777777777.png) no-repeat 0 -1117px;
+                    }
+                }
+            }
+        }
+    }
+}
+.vr_footer{
+    overflow: hidden;
+    p{
+        font: 100 12px "宋体";
+        color: #999999;
+        padding-top: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
