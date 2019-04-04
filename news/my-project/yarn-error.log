@@ -1,0 +1,45 @@
+Arguments: 
+  D:\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\;D:\Git\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v4\npm-isarray-1.0.0-bb935d48582cba168c06834957a54a3e07124f11\node_modules\isarray\component.json' -> 'e:\news\my-project\node_modules\concat-stream\node_modules\isarray\component.json'
+
+npm manifest: 
+  {
+    "name": "my-project",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "jade": "~1.11.0",
+      "jquery": "^3.3.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongodb": "^3.2.2",
+      "morgan": "~1.9.0",
+      "multer": "^1.4.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

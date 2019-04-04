@@ -1,0 +1,22 @@
+#imglist li{
+    position: relative;
+    box-sizing: border-box;
+    width: 170px;
+    height: 198px;
+}
+#imglist li .prclose{
+    display: block;
+    width: 20px;height: 20px;
+    background: white;
+    color: black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+    display: none;
+}
+#imglist li:hover .prclose{
+    display: block;
+}
